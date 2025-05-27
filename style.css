@@ -1,0 +1,539 @@
+.navbar{
+    margin: 30px;
+    padding: 10px;
+}
+
+.home{
+    margin-left: 20%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.about{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.destination{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.tour{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.blog{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.login{
+    margin-left: 15%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #FD8D3A;
+    font-weight: bold;
+}
+
+.signup{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-color: #FA7436;
+    color: white;
+    border-radius: 7%;
+    padding: 10px 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 600px;
+    
+}
+
+.imageright{
+    float: right;
+    width: 785px;
+    height: 585px;
+}
+
+.contents{
+    font-family: 'volkhov';
+    font-size: 64px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+.part1{
+    margin-left: 2%;
+    
+}
+
+.para{
+    font-size: 20px;
+    color: gray;
+    line-height: 1.8;
+}
+
+.enhance{
+    color: #FA7436;
+}
+
+.discover{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500px;
+    cursor: pointer;
+    color: #FA7436;
+    background-color: white;
+    border: 2px solid #FA7436;
+    border-radius: 5px;
+}
+
+.one{
+    margin-left: 20%;
+    
+}
+
+.two{
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500; 
+    color: #222222; 
+    cursor: pointer;
+}
+
+.three{
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500; 
+    color: #222222; 
+    cursor: pointer;
+}
+
+.explore{
+    margin-left: 10%;
+}
+
+.five{
+    margin-left: 20%;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Poppins';
+    
+}
+
+.six{
+    margin-left: 4%;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+.seven{
+    margin-left: 4%;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+.part2{
+    background-color: #FEFCFB;
+}
+
+.four{
+    background-color: #FEFCFB;
+}
+
+.explore{
+    font-size: 18px;
+    font-family: 'Poppins';
+    background-color: #FA7436;
+    color: white;
+    border-radius: 5%;
+    padding: 10px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 500px;
+}
+
+.part2{
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0; 
+    border-radius: 8px;         
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.font{
+    color: #FA7436;
+}
+
+.fon{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500; 
+    color: #222222; 
+    cursor: pointer;  
+}
+
+.element{
+    float: right;
+    width: 1920;
+    height: 724;
+}
+
+.highlight{
+    color: #FA7436;
+}
+
+.eight{
+    text-align: center;
+    margin-left: 250px;
+}
+
+.nine{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.sign {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 280px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.money{
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 280px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.eleven{
+    color: gray;
+}
+
+.exciting{
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 280px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.fourteen{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600; 
+}
+
+.high{
+    color: #FA7436;
+}
+
+.fifteen{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'volkhov';
+    font-size: 48px;
+}
+
+.sixteen{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.card{
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.slide{
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+.slider{
+    margin-left: 80%;
+}
+
+.hotels{
+    display: flex;
+    margin-top: 2%;
+}
+
+.card1 {
+  width: 370px;
+  height: 447px;
+  object-fit: contain;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+.card2 {
+  width: 370px;
+  height: 447px;
+  object-fit: contain;
+  margin-left: 28%;
+  cursor: pointer;
+}
+
+.card3 {
+  width: 470px;
+  height: 300px;
+  object-fit: contain;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.whatimg{
+     float: right;
+     width: 168.56;
+     height: 188.06px;
+     object-fit: contain;
+}
+
+.client{
+    margin-left: 5%;
+    width: 541px;
+    height: 279px;
+    object-fit: contain;
+}
+
+.what{
+    display: flex;
+}
+
+.twenty{
+    margin-left: 10%;
+}
+
+.whats{
+    margin-right: 60%;
+    margin-left: 10%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.twentyone{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.cards1{
+    margin: 2%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.cards2{
+    margin: 2%;
+    cursor: pointer;
+}
+
+.cards3{
+    margin: 2%;
+    cursor: pointer;
+}
+
+.cards4{
+    margin: 2%;
+    cursor: pointer;
+}
+
+.subscribe{
+    width: 1170px;
+    height: 416px;
+    background-color: #FA7436;
+    margin-left: 6%;
+    border-radius: 20px;
+}
+
+.twentytwo{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'volkhov';
+    font-size: 48px;
+    padding-top: 10%;
+}
+
+.mail{
+    margin-left: 20%;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 20px;
+
+}
+
+.subs{
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-color: white;
+    color: #FA7436;
+    border-radius: 7%;
+    padding: 10px 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.end{
+    margin: 5%;
+    display: flex;
+}
+
+.book{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.8;
+    text-align: left;
+
+}
+
+.comp{
+    margin-left: 30%;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.cont{
+    margin-left: 15%;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.more{
+    margin-left: 15%;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.books{
+    margin: 5%;
+}
+
+.abt{
+    margin-left: 42%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.hlp{
+    margin-left: 17%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.press{
+    margin-left: 12%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.pre{
+    margin-left: 16%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.blogs{
+    margin-left: 15%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.aff{
+    margin-left: 16%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.low{
+    margin-left: 13%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.terms{
+    margin-left: 60%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+}
+
+.copy{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: gray;
+}
+
+.social{
+    cursor: pointer;
+}
