@@ -73,6 +73,7 @@
 
 .part1{
     margin-left: 2%;
+    background-color: #FEFCFB;
     
 }
 
@@ -149,10 +150,6 @@
     font-family: 'Poppins';
 }
 
-.part2{
-    background-color: #FEFCFB;
-}
-
 .four{
     background-color: #FEFCFB;
 }
@@ -178,6 +175,8 @@
     border: 2px solid #E0E0E0; 
     border-radius: 8px;         
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 75%;
+    float: right;
 }
 
 .font{
@@ -217,7 +216,7 @@
 
 .sign {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     padding: 30px;
     width: 280px;
@@ -231,11 +230,12 @@
 .box{
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 
 .money{
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     padding: 30px;
     width: 280px;
@@ -251,7 +251,7 @@
 
 .exciting{
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     padding: 30px;
     width: 280px;
@@ -344,11 +344,11 @@
 
 .what{
     display: flex;
+    background-color: #F5F9FF;
+    padding: 4%;
 }
 
-.twenty{
-    margin-left: 10%;
-}
+
 
 .whats{
     margin-right: 60%;
@@ -429,8 +429,7 @@
 }
 
 .end{
-    margin: 5%;
-    display: flex;
+    margin-left: 6rem;
 }
 
 .book{
@@ -441,26 +440,9 @@
 
 }
 
-.comp{
-    margin-left: 30%;
-    font-size: 18px;
-    font-family: 'Poppins';
-}
-
-.cont{
-    margin-left: 15%;
-    font-size: 18px;
-    font-family: 'Poppins';
-}
-
-.more{
-    margin-left: 15%;
-    font-size: 18px;
-    font-family: 'Poppins';
-}
-
 .books{
-    margin: 5%;
+    font-size: 18px;
+    font-family: 'Poppins';
 }
 
 .abt{
@@ -536,4 +518,320 @@
 
 .social{
     cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 10%;
+    background-color: #F7F8FC;
+    padding: 2%;
+}
+
+.lists {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.part3 {
+    background-color: #F5F9FF;
+    margin-top: 8rem;
+    padding: 16px;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .home, .about, .destination, .tour, .blog, .login, .signup {
+        margin-left: 0;
+    }
+
+    .imageright {
+        width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contents {
+        font-size: 48px;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .para {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .one, .five, .six, .seven, .eight {
+        margin-left: 5%;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign, .money, .exciting {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .slide {
+        margin-left: 40%;
+    }
+
+    .slider {
+        margin-left: 70%;
+    }
+
+    .hotels {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1, .card2, .card3 {
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    .what {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .client {
+        width: 80%;
+        height: auto;
+    }
+
+    .whatimg {
+        float: none;
+        width: 100px;
+        height: auto;
+    }
+
+    .whats {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .subscribe {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .mail {
+        width: 80%;
+        padding: 15px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .subs {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .end {
+        margin: auto;
+    }
+
+    .comp, .cont, .more {
+        margin-left: 0;
+    }
+
+    .books {
+        text-align: center;
+    }
+
+    .abt, .hlp, .press, .pre, .blogs, .aff, .low {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .terms {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .nine {
+        font-size: 18px;
+        color: gray;
+        line-height: 1.8;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .twentyone {
+        font-size: 18px;
+        color: gray;
+        line-height: 1.8;
+        text-align: left;
+        margin-top: 0%;
+        padding-top: 0%;
+        margin-left: 10rem;
+    }
+
+    .part2 {
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+}
+
+
+@media (max-width: 600px) {
+    .contents {
+        font-size: 36px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+
+    .fifteen {
+        font-size: 32px;
+    }
+
+    .sixteen {
+        font-size: 16px;
+    }
+
+    .twentytwo {
+        font-size: 32px;
+        padding-top: 5%;
+    }
+
+    .mail {
+        padding: 12px;
+    }
+
+    .eight {
+         text-align: center;
+    }
+
+    .element {
+        margin-left: 85px;
+        margin-right: 10px;
+        margin-top: 20px;
+        float: none;
+    }
+
+    .nine {
+        font-size: 18px;
+        color: gray;
+        line-height: 1.8;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .twentyone {
+        font-size: 18px;
+        color: gray;
+        line-height: 1.8;
+        margin-top: 0%;
+        padding-top: 0%;
+        text-align: center;
+    }
+
+    .cards1 {
+        margin: 2%;
+        margin-left: 4rem;
+        cursor: pointer;
+        margin-right: 24px;
+    }
+
+    .cards2 {
+        margin: 2%;
+        margin-left: 4rem;
+        cursor: pointer;
+        margin-right: 24px;
+    }
+
+    .cards3 {
+        margin: 2%;
+        margin-left: 4rem;
+        cursor: pointer;
+        margin-right: 24px;
+    }
+
+    .cards4 {
+        margin: 2%;
+        margin-left: 4rem;
+        cursor: pointer;
+        margin-right: 24px;
+    }
+
+    .twenty {
+        margin-left: 0%;
+    }
+
+    .fifteen {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'volkhov';
+        font-size: 48px;
+        margin-left: 10px; 
+    }
+
+    .element1 {
+        margin-left: 200px;
+    }
+
+    .navbar {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .discoverNav {
+        display: none;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .end {
+        margin: auto;
+    }
+
+
 }
